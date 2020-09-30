@@ -153,11 +153,15 @@ header {
   position: relative;
 }
 
+.lesson-icon img {
+  width:100%;
+}
+
 .lesson-icon p {
   position: absolute;
-  top: 100%;
-  width: 100%;
-  color: white;
+  top: 45%;
+  width: 79%;
+  color: #007F89;
 }
 
 .text-contents {
@@ -166,10 +170,6 @@ header {
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
 }
 
 .message-wrapper {
@@ -189,6 +189,10 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+footer {
+  background-color: #007F89;
 }
 
 footer img {
